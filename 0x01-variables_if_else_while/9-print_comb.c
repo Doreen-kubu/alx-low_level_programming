@@ -6,13 +6,15 @@
  */
 int main(void)
 {
-int z, comma;
+int z, comma, space;
 comma = ',';
+space = ' ';
 for (z = '0'; z <= '9'; z++)
 {
 putchar(z);
 if (z <= '8')
 putchar(comma);
+putchar (space);
 }
 
 putchar('\n');
