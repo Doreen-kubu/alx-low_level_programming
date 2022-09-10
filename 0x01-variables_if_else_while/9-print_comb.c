@@ -14,6 +14,7 @@ for (z = '0'; z <= '9'; z++)
 putchar(z);
 if (z <= '8')
 putchar(comma);
+if (z <= '8')
 putchar (space);
 }
 
