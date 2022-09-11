@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
-
 /**
- * main = start executing
- * return 0 if true
+ * main - Entry point
  *
- *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {

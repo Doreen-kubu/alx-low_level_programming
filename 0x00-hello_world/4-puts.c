@@ -1,10 +1,9 @@
 #include <stdio.h>
 int main(void)
 /**
- * main starts reading from here
+ * main - Entry point
  *
- * return:0 when file is sucessfully executed
- *
+ * Return: Always 0 (Success)
  */
 {
 puts("\"Programming is like building a multilingual puzzle,");

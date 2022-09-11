@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main: oh dear don't we love redundancies
- * return: 0 another day
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
