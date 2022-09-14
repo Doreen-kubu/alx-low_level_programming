@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * _abs - Entry point
- * @n - integer
- * print the absolute value of an intenger n
- * return int
+ * _abs - return abs value
+ * @n : number to check
+ * Return:0 or 1
  */
 
 int _abs(int n)
