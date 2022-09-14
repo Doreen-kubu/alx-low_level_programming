@@ -5,13 +5,8 @@
  * @y: int type number
  * Return:0
  */
-int add(int, int)
+int add(int x, int y)
 {
-int x;
-int y;
-int sum;
-
-sum = x + y;
-return (sum);
+return (x + y);
 }
 

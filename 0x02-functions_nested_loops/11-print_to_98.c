@@ -9,7 +9,6 @@
 
 void print_to_98(int n)
 {
-int n;
 int y;
 
 if (n < 98)
