@@ -1,7 +1,9 @@
 #include "main.h"
-/*
- *add : adds two integers and returns the results
- *return: always 0
+/**
+ * add - returns the sum of its parameters
+ * @x: int type number
+ * @y: int type number
+ * Return:0
  */
 int add(int, int)
 {
