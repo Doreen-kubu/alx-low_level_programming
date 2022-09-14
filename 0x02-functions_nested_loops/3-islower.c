@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * _islower - Entry point
- * description -  checks if a character is in lower case
- * c - the integer value it receives
- * Return 1 if true, 0 if false
- *
+ * _islower - check for lower case letter
+ * @c : character to check the case
+ * Return:0 or 1
  */
+
 int _islower(int c)
 {
 int i;
