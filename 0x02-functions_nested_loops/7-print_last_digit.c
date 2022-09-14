@@ -6,7 +6,7 @@
  * Return:0 or 1
  */
 
-int print_last_digit(int)
+int print_last_digit(int y)
 {
 int y; /* the last digit */
 int n;
