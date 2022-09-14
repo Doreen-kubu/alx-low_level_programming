@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _isalpa - Entry point
- * Description: checks if a character is an alphabet
- * @c: the integer value it receives
- * Return - 1 if true. 0 if false.
+ * _isalpha - check for lower case letter
+ * @c : character to check
+ * Return:0 or 1
  */
+
 int _isalpha(int c)
 {
 if (c >= 'a' && c <= 'z')
