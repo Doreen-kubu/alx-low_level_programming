@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include "main.h"
-/*
- * print_to_98: prints all natural mumbers from 9 t0 98
- * return: always zero
+
+/**
+ * print_to_98 - print to 98
+ * @n : number to start from
+ * Return:0 or 1
  */
+
 void print_to_98(int n)
 {
 int n;
