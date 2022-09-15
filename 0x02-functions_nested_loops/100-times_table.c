@@ -16,7 +16,6 @@ printf("%d" , fb2);
 
 if ( 1 < n || n < 98)
 printf (",");
-
 int next = fb1 + fb2;
 fb1 = fb2;
 fb2 = next;
