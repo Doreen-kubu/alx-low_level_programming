@@ -1,4 +1,10 @@
 #include <stdio.h>
+
+/**
+ * main - prints fizz, buzz and fizzbuzz.
+ *
+ * Return: void.
+ */
 int main (void)
 {
 int x;
