@@ -23,8 +23,8 @@ i++;
 d = d / 10;
 while (ii < i)
 {
- _putchar('0' + n / d);
-n = n - (n / d) * d;
+_putchar('0' + n / d);
+n = n - (n / d) *d;
 d = d / 10;
 ii++;
 }
