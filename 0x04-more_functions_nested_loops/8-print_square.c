@@ -1,6 +1,10 @@
-#include <stdio.h>
-int main (void)
-{
+#include "main.h"
+
+/**
+ * print_square - check for a digit
+ * @n : number of _ to be printed
+ * Return:void
+ */
 void print_square(int size)
 {
 int y;
@@ -22,7 +26,5 @@ putchar('\n');
 }
 
 }
-print_square(0);
-return (0);
-}
+
 
