@@ -2,7 +2,7 @@
 
 /**
  * print_square - check for a digit
- * @n : number of _ to be printed
+ * @size : number of _ to be printed
  * Return:void
  */
 void print_square(int size)
@@ -14,7 +14,7 @@ _putchar('\n');
 
 else
 {
-for(y = 1; y <= size; y++)
+for (y = 1; y <= size; y++)
 {
 
 for (x = 1; x <= size; x++)
