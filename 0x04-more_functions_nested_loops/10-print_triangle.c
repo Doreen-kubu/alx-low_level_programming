@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_triangle - check for digit
+ * print_triangle - check for a digit
  * @size : integer type
- * Return: void
+ * Return:void
  */
 void print_tringle(int size)
 {
