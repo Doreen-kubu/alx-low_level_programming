@@ -9,19 +9,21 @@
  *
  * Return: the pointer to dest
  */
-
 char *_strcpy(char *dest, char *src)
 {
+int len, i;
+len = 0;
 
-int i = -1;
+while (src[len] != '\0')
+{
+len++;
+}
 
-do {
-
-i++;
+for (i = 0; i < len; i++)
+{
 dest[i] = src[i];
-
-} while (src[i] = '\0');
+}
+dest[i] = '\0';
 
 return (dest);
 }
-
