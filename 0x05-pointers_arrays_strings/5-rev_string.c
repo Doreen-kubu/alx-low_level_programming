@@ -20,7 +20,7 @@ str = s;
 
 for (x = 0; x < (full - 1); x++)
 {
-for (y = i + 1; y > 0; y--)
+for (y = x + 1; y > 0; y--)
 {
 tmp = *(str + y);
 *(str + y) = *(str + (y - 1));
