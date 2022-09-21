@@ -14,7 +14,7 @@ while (str[x] != '\0')
 if (x % 2 == 0)
 _putchar(str[x]);
 
-i++
+x++
 
 }
 _putchar('\n');
