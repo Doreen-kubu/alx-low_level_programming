@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
-* print_array : print n elements of an array of integers
-* @a : pointer to the inteher to be printed
-* @n : integer number of integersto be printed
-* description : numbers must be divided by commas
-*/
+ * print_array - prints n elements of an array of integers
+ * followed by a new line
+ * @a: array to be printed
+ * @n: number of elements to print
+ */
 
 void print_array(int *a, int n)
 {
