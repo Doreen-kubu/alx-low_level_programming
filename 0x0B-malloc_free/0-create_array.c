@@ -27,3 +27,7 @@ while (i < size)
 *(p + i) = c;
 i++;
 }
+*(p + i) = '\0';
+
+return (p);
+
